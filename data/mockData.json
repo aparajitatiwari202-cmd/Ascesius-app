@@ -1,0 +1,133 @@
+{
+  "currentUser": {
+    "name": "Ananya Sharma",
+    "rollNumber": "23CS014",
+    "email": "ananya.23cs014@maitreyi.du.ac.in",
+    "coins": 150,
+    "attendance": 74.2,
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Ananya"
+  },
+  "notices": [
+    {
+      "id": "notif-1",
+      "title": "Semester Examination Form Submission",
+      "deadline": "Tomorrow, 5:00 PM",
+      "category": "Exam Section",
+      "urgent": true,
+      "actionUrl": "/admin"
+    },
+    {
+      "id": "notif-2",
+      "title": "SheCodes 2026 Internal Hackathon Entry",
+      "deadline": "In 3 Days",
+      "category": "Society Event",
+      "urgent": false,
+      "actionUrl": "/servers"
+    }
+  ],
+  "resumes": [
+    {
+      "id": "res-1",
+      "candidateName": "Aditi S.",
+      "branch": "B.Sc CS (3rd Year)",
+      "targetRole": "Frontend Intern",
+      "pdfName": "Aditi_Frontend_Resume.pdf",
+      "votes": 14,
+      "critiques": [
+        "Move your Next.js project above education.",
+        "Add measurable metrics under your SheCodes hackathon entry."
+      ]
+    },
+    {
+      "id": "res-2",
+      "candidateName": "Riya M.",
+      "branch": "Physics Hons (2nd Year)",
+      "targetRole": "Data Analyst Intern",
+      "pdfName": "Riya_Physics_Data_Resume.pdf",
+      "votes": 9,
+      "critiques": [
+        "Highlight your Python numerical analysis libraries.",
+        "Ensure font sizes are consistent in the skills section."
+      ]
+    }
+  ],
+  "hackathons": [
+    {
+      "id": "hack-1",
+      "title": "Smart India Hackathon (SIH 2026)",
+      "date": "Oct 12 - 14",
+      "teamSize": "6 Members",
+      "tags": ["National", "Smart Governance", "Web3/AI"]
+    },
+    {
+      "id": "hack-2",
+      "title": "SheCodes DU Internal Sprint",
+      "date": "Sept 18 - 19",
+      "teamSize": "2-4 Members",
+      "tags": ["Women In Tech", "Prototyping"]
+    }
+  ],
+  "notes": [
+    {
+      "id": "note-1",
+      "title": "Physics Wave Optics & Lab Manual",
+      "department": "Physics",
+      "price": 25,
+      "rating": 4.9,
+      "category": "Notes",
+      "aiSummary": "Covers Huygens Principle, Michelson Interferometers, and experiment observations for Semester 4 practicals (24 pages)."
+    },
+    {
+      "id": "note-2",
+      "title": "Data Structures & Algorithms Cheat Sheet",
+      "department": "Computer Science",
+      "price": 25,
+      "rating": 4.8,
+      "category": "Notes",
+      "aiSummary": "Concise breakdowns of AVL Trees, Graph Traversals (BFS/DFS), and dynamic programming recurrence patterns with C++ code."
+    },
+    {
+      "id": "note-3",
+      "title": "Casio Scientific Calculator fx-991EX",
+      "department": "Mathematics",
+      "price": 80,
+      "rating": 5.0,
+      "category": "Hardware",
+      "aiSummary": "Physical hardware listing in mint condition. Safe pickup available at CS Dept Room 204."
+    }
+  ],
+  "lostAndFound": [
+    {
+      "id": "lf-1",
+      "title": "Casio Calculator fx-991EX",
+      "location": "Physics Lab 3",
+      "timestamp": "2 hrs ago",
+      "matchConfidence": "94%",
+      "icon": "🧮"
+    },
+    {
+      "id": "lf-2",
+      "title": "Insulated Stainless Steel Water Bottle",
+      "location": "Science Block Room 16",
+      "timestamp": "Yesterday",
+      "matchConfidence": "88%",
+      "icon": "🧴"
+    }
+  ],
+  "facultyProfiles": [
+    {
+      "id": "fac-1",
+      "name": "Prof. R. Sharma",
+      "designation": "CS Teacher-in-Charge (TIC)",
+      "cabin": "Room 204, Science Block",
+      "hours": "11:00 AM - 1:00 PM"
+    },
+    {
+      "id": "fac-2",
+      "name": "Dr. Verma",
+      "designation": "Administration Section Officer",
+      "cabin": "Counter 3, Main Admin Building",
+      "hours": "10:00 AM - 3:00 PM"
+    }
+  ]
+}
