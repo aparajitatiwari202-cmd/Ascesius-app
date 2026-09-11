@@ -161,7 +161,7 @@ export default function AdminClearancePipeline() {
             <p className={`mt-1 text-base font-semibold ${adminSynced ? 'text-green-600' : 'text-gray-400'}`}>
               {adminSynced ? `Status updated - ${workflow.counter} dispatched` : 'Waiting on faculty sign-off'}
             </p>
-          </div>                                                                                                                             
+             </div>                                                                                                                             
         </div>
       )}
     </div>
