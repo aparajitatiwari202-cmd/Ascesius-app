@@ -101,13 +101,6 @@ function HackathonsRoom({ data }) {
         },
       ];
 
-  const daysLeft = (dateStr) => {
-  if (!dateStr) return "TBD";
-  const diff = new Date(dateStr) - new Date();
-  if (isNaN(diff)) return "TBD";
-  return `${Math.max(0, Math.ceil(diff / (1000 * 60 * 60 * 24)))}d`;
-};
-
   return (
     <div>
       <h1 className="text-xl font-bold text-gray-800 mb-4">#hackathons</h1>
@@ -118,9 +111,9 @@ function HackathonsRoom({ data }) {
             className="bg-white rounded-xl border border-gray-200 p-4 shadow-sm"
           >
             <div className="flex justify-between items-start mb-2">
-              <h3 className="font-semibold text-gray-800">{h.name}</h3>
-              <span className="text-xs font-medium bg-amber-100 text-amber-700 px-2 py-1 rounded-full">
-                {daysLeft(h.date)} left
+  <h3 className="font-semibold text-gray-800">{h.title}</h3>
+  <span className="text-xs font-medium bg-amber-100 text-amber-700 px-2 py-1 rounded-full">
+    {h.date}
               </span>
             </div>
             <p className="text-sm text-gray-500 mb-1">Team size: {h.teamSize}</p>
