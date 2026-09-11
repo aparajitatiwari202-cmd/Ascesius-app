@@ -1,9 +1,9 @@
 import { useState } from "react";
 import mockData from "../data/mockData.json";
 
-// TODO: once Mourya finishes these, swap the placeholders below for real imports:
-// import ResumeReviewFeed from "../components/ResumeReviewFeed";
-// import LostFoundCard from "../components/LostFoundCard";
+
+import ResumeReviewFeed from "../components/ResumeReviewFeed";
+import LostFoundCard from "../components/LostFoundCard";
 
 const CHANNELS = [
   { id: "resume-review", label: "#resume-review" },
@@ -145,27 +145,11 @@ function HackathonsRoom({ data }) {
 }
 
 function ResumeReviewRoom() {
-  // Swap this block for: return <ResumeReviewFeed />;
-  return (
-    <div>
-      <h1 className="text-xl font-bold text-gray-800 mb-4">#resume-review</h1>
-      <div className="bg-white border border-dashed border-gray-300 rounded-xl p-6 text-sm text-gray-400 text-center">
-        Waiting on Mourya's &lt;ResumeReviewFeed /&gt; component
-      </div>
-    </div>
-  );
+  return <ResumeReviewFeed />;
 }
 
 function LostAndFoundRoom() {
-  // Swap this block for: return <LostFoundCard />;
-  return (
-    <div>
-      <h1 className="text-xl font-bold text-gray-800 mb-4">#smart-lost-and-found</h1>
-      <div className="bg-white border border-dashed border-gray-300 rounded-xl p-6 text-sm text-gray-400 text-center">
-        Waiting on Mourya's &lt;LostFoundCard /&gt; component
-      </div>
-    </div>
-  );
+  return <LostFoundCard />;
 }
 
 function InterviewPrepRoom() {
