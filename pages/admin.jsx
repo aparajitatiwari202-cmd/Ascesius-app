@@ -18,14 +18,14 @@ const FALLBACK_USER = {
 const currentUser = sharedMock?.currentUser || FALLBACK_USER;
 
 const CLEARANCE_DICTIONARY = {
-  'ge migration': {
-    label: 'GE Migration Form',
+  ' migration': {
+    label: ' Migration Form',
     faculty: 'Prof. R. Sharma',
     counter: 'Counter 3',
     document: 'migration_form.pdf',
   },
   migration: {
-    label: 'GE Migration Form',
+    label: 'Migration Form',
     faculty: 'Prof. R. Sharma',
     counter: 'Counter 3',
     document: 'migration_form.pdf',
@@ -161,9 +161,9 @@ export default function AdminClearancePipeline() {
             <p className={`mt-1 text-base font-semibold ${adminSynced ? 'text-green-600' : 'text-gray-400'}`}>
               {adminSynced ? `Status updated - ${workflow.counter} dispatched` : 'Waiting on faculty sign-off'}
             </p>
-          </div>
+          </div>                                                                                                                             
         </div>
       )}
     </div>
-  );
+    );
 }
