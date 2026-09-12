@@ -103,7 +103,8 @@
       "location": "Physics Lab 3",
       "timestamp": "2 hrs ago",
       "matchConfidence": "94%",
-      "icon": "🧮"
+      "icon": "🧮",
+      "image": "https://loremflickr.com/400/300/calculator?lock=101"
     },
     {
       "id": "lf-2",
@@ -111,7 +112,44 @@
       "location": "Science Block Room 16",
       "timestamp": "Yesterday",
       "matchConfidence": "88%",
-      "icon": "🧴"
+      "icon": "🧴",
+      "image": "https://loremflickr.com/400/300/waterbottle?lock=102"
+    },
+    {
+      "id": "lf-3",
+      "title": "Black Foldable Umbrella",
+      "location": "Main Gate Security Booth",
+      "timestamp": "3 hrs ago",
+      "matchConfidence": "81%",
+      "icon": "☂️",
+      "image": "https://loremflickr.com/400/300/umbrella?lock=103"
+    },
+    {
+      "id": "lf-4",
+      "title": "Student ID Card - Roll No. 23CS045",
+      "location": "Canteen, Ground Floor",
+      "timestamp": "5 hrs ago",
+      "matchConfidence": "97%",
+      "icon": "🪪",
+      "image": "https://loremflickr.com/400/300/idcard?lock=104"
+    },
+    {
+      "id": "lf-5",
+      "title": "Wireless Earbuds (Single Left Piece)",
+      "location": "Library Reading Hall",
+      "timestamp": "1 day ago",
+      "matchConfidence": "76%",
+      "icon": "🎧",
+      "image": "https://loremflickr.com/400/300/earbuds?lock=105"
+    },
+    {
+      "id": "lf-6",
+      "title": "Bunch of Keys with Blue Keychain",
+      "location": "Hostel Block C Entrance",
+      "timestamp": "2 days ago",
+      "matchConfidence": "90%",
+      "icon": "🔑",
+      "image": "https://loremflickr.com/400/300/keys?lock=106"
     }
   ],
   "facultyProfiles": [
