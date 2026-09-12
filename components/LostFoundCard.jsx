@@ -3,11 +3,23 @@ import React, { useState } from 'react';
 export default function LostFoundCard({ item }) {
   const [claimed, setClaimed] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
+  const [imageFailed, setImageFailed] = useState(false);
+
+  const hasImage = Boolean(item?.image) && !imageFailed;
 
   return (
     <div className="bg-white border border-slate-200 rounded-xl p-5 shadow-sm max-w-sm">
-      <div className="h-36 bg-slate-100 rounded-lg flex items-center justify-center text-4xl mb-4">
-        {item?.icon || '🔍'}
+      <div className="h-36 bg-slate-100 rounded-lg overflow-hidden flex items-center justify-center text-4xl mb-4">
+        {hasImage ? (
+          <img
+            src={item.image}
+            alt={item?.title || 'Lost item'}
+            className="h-full w-full object-cover"
+            onError={() => setImageFailed(true)}
+          />
+        ) : (
+          <span>{item?.icon || '🔍'}</span>
+        )}
       </div>
 
       <div className="flex justify-between items-center mb-2">
